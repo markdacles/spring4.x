@@ -1,0 +1,46 @@
+2018-06-18 15:47:30 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'mvc': initialization started 
+2018-06-18 15:47:30 [main] [INFO] o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'mvc-servlet': startup date [Mon Jun 18 15:47:30 PHT 2018]; root of context hierarchy 
+2018-06-18 15:47:30 [main] [INFO] o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [beans.xml] 
+2018-06-18 15:47:31 [main] [INFO] o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3feebf9c: defining beans [personnelDao,dao,contactService,roleService,personnelService,projectService,txManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,serviceMethods,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,dataSource,sessionFactory,viewResolver,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping#0,/,/listPersonnel,/deletePersonnel,/addPersonnelByFile,/listRoles,/manageRoles,/deleteRole,/addPersonnel,/updatePersonnel,/addRole,/updateRole,/listProject,/deleteProject,/addProject,/updateProject,/personnelManager,personnelValidator,roleValidator,projectValidator,messageSource,org.springframework.web.servlet.handler.MappedInterceptor#0,localeResolver,multipartResolver]; root of factory hierarchy 
+2018-06-18 15:47:31 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 15:47:31 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 15:47:31 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 15:47:31 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 15:47:31 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 15:47:32 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 15:47:32 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 15:47:32 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 15:47:32 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 15:47:32 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 15:47:32 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 15:47:33 [main] [INFO] o.s.o.h.HibernateTransactionManager - Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@51172948] of Hibernate SessionFactory for HibernateTransactionManager 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Root mapping to handler '/' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/listPersonnel] onto handler '/listPersonnel' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/deletePersonnel] onto handler '/deletePersonnel' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/addPersonnelByFile] onto handler '/addPersonnelByFile' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/listRoles] onto handler '/listRoles' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/manageRoles] onto handler '/manageRoles' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/deleteRole] onto handler '/deleteRole' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/addPersonnel] onto handler '/addPersonnel' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/updatePersonnel] onto handler '/updatePersonnel' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/addRole] onto handler '/addRole' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/updateRole] onto handler '/updateRole' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/listProject] onto handler '/listProject' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/deleteProject] onto handler '/deleteProject' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/addProject] onto handler '/addProject' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/updateProject] onto handler '/updateProject' 
+2018-06-18 15:47:33 [main] [INFO] o.s.w.s.h.BeanNameUrlHandlerMapping - Mapped URL path [/personnelManager] onto handler '/personnelManager' 
+2018-06-18 15:47:34 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'mvc': initialization completed in 4094 ms 
+2018-06-18 15:47:42 [qtp2065196426-12] [INFO] PersonnelServiceImpl - PersonnelService listPersonnel method 
+2018-06-18 15:47:44 [qtp2065196426-14] [INFO] RoleServiceImpl - RoleService listProject method 
+2018-06-18 15:47:59 [qtp2065196426-16] [INFO] RoleServiceImpl - RoleService listProject method 
+2018-06-18 15:48:08 [qtp2065196426-14] [INFO] RoleServiceImpl - RoleService listProject method 
+2018-06-18 15:48:15 [qtp2065196426-16] [INFO] RoleServiceImpl - RoleService findById method 
+2018-06-18 15:48:15 [qtp2065196426-16] [INFO] RoleServiceImpl - RoleService findById method 
+2018-06-18 15:48:15 [qtp2065196426-16] [INFO] PersonnelServiceImpl - PersonnelService addPersonnel method 
+2018-06-18 15:48:15 [qtp2065196426-14] [INFO] PersonnelServiceImpl - PersonnelService listPersonnel method 
+2018-06-18 15:48:21 [qtp2065196426-16] [INFO] PersonnelServiceImpl - PersonnelService findById method 
+2018-06-18 15:48:21 [qtp2065196426-16] [INFO] RoleServiceImpl - RoleService listProject method 
+2018-06-18 15:48:21 [qtp2065196426-16] [INFO] PersonnelServiceImpl - PersonnelService findById method 
+2018-06-18 15:48:21 [qtp2065196426-16] [INFO] RoleServiceImpl - RoleService listProject method 
+2018-06-18 15:48:23 [qtp2065196426-14] [INFO] PersonnelServiceImpl - PersonnelService listPersonnel method 
