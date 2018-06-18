@@ -181,3 +181,218 @@ Caused by: java.lang.ClassNotFoundException: IndexController
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1438)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1383)
 	... 84 common frames omitted
+2018-06-18 16:42:52 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:42:52 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:42:52 PHT 2018]; root of context hierarchy 
+2018-06-18 16:42:52 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:42:53 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:42:54 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:42:54 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:42:54 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:42:54 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:42:54 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:42:55 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:42:55 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:42:56 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:42:56 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:42:57 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:42:57 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:42:57 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:42:57 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5554 ms 
+2018-06-18 16:42:57 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:42:58 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:42:58 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:42:58 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:42:58 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:42:59 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/app-resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:43:00 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:42:58 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:43:00 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2852 ms 
+2018-06-18 16:43:06 [qtp825791803-18] [WARN] o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcher' 
+2018-06-18 16:43:08 [qtp825791803-19] [WARN] o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcher' 
+2018-06-18 16:44:35 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:42:58 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:45:05 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:45:05 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:45:05 PHT 2018]; root of context hierarchy 
+2018-06-18 16:45:05 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:45:06 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:45:07 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:45:07 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:45:07 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:45:07 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:45:07 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:45:08 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:45:08 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:45:09 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:45:09 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:45:09 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:45:09 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:45:09 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:45:10 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:45:10 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5324 ms 
+2018-06-18 16:45:10 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:45:10 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:45:10 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:45:10 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:45:10 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:45:12 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/app-resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:45:12 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:45:10 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:45:13 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2992 ms 
+2018-06-18 16:45:17 [qtp2099348779-12] [WARN] o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcher' 
+2018-06-18 16:48:34 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:45:10 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:48:34 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Jun 18 16:45:05 PHT 2018]; root of context hierarchy 
+2018-06-18 16:49:40 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:49:40 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:49:40 PHT 2018]; root of context hierarchy 
+2018-06-18 16:49:41 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:49:42 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:49:44 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.exist.ecc.controllers.IndexController.home(org.springframework.web.servlet.ModelAndView) 
+2018-06-18 16:49:45 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jun 18 16:49:40 PHT 2018]; root of context hierarchy 
+2018-06-18 16:49:45 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:49:46 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:49:46 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:49:46 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:49:46 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:49:47 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:49:47 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:49:48 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:49:48 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:49:49 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:49:49 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:49:49 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:49:50 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9811 ms 
+2018-06-18 16:49:50 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:49:50 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:49:50 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:49:50 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:49:50 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:49:51 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:49:51 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:49:50 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:49:52 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1429 ms 
+2018-06-18 16:49:57 [qtp197535883-19] [WARN] o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcher' 
+2018-06-18 16:50:38 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:49:50 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:50:38 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Jun 18 16:49:40 PHT 2018]; root of context hierarchy 
+2018-06-18 16:51:10 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:51:10 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:51:10 PHT 2018]; root of context hierarchy 
+2018-06-18 16:51:10 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:51:12 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:51:13 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.exist.ecc.controllers.IndexController.home(org.springframework.web.servlet.ModelAndView) 
+2018-06-18 16:51:14 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jun 18 16:51:10 PHT 2018]; root of context hierarchy 
+2018-06-18 16:51:14 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:51:14 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:51:14 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:51:14 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:51:14 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:51:15 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:51:15 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:51:16 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:51:16 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:51:17 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:51:17 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:51:17 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:51:18 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8032 ms 
+2018-06-18 16:51:18 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:51:18 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:51:18 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:51:18 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:51:18 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:51:18 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:51:18 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:51:18 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:51:19 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1266 ms 
+2018-06-18 16:51:25 [qtp1637411253-18] [WARN] o.s.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'dispatcher' 
+2018-06-18 16:52:51 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:51:18 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:52:51 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Jun 18 16:51:10 PHT 2018]; root of context hierarchy 
+2018-06-18 16:53:20 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:53:21 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:53:21 PHT 2018]; root of context hierarchy 
+2018-06-18 16:53:21 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:53:23 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:53:24 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.exist.ecc.controllers.IndexController.home(org.springframework.web.servlet.ModelAndView) 
+2018-06-18 16:53:24 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Mon Jun 18 16:53:21 PHT 2018]; root of context hierarchy 
+2018-06-18 16:53:25 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:53:25 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:53:25 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:53:25 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:53:25 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:53:26 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:53:26 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:53:27 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:53:27 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:53:27 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:53:27 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:53:28 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:53:28 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7934 ms 
+2018-06-18 16:53:29 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:53:29 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:53:29 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:53:29 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:53:29 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:53:29 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:53:29 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:53:29 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:53:30 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 1207 ms 
+2018-06-18 16:53:33 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:53:29 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:53:33 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Jun 18 16:53:21 PHT 2018]; root of context hierarchy 
+2018-06-18 16:54:46 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started 
+2018-06-18 16:54:47 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Mon Jun 18 16:54:47 PHT 2018]; root of context hierarchy 
+2018-06-18 16:54:47 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class HibernateConfig] 
+2018-06-18 16:54:47 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:54:48 [main] [INFO] o.s.j.d.DriverManagerDataSource - Loaded JDBC driver: org.postgresql.Driver 
+2018-06-18 16:54:48 [main] [INFO] o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {4.0.2.Final} 
+2018-06-18 16:54:48 [main] [INFO] org.hibernate.Version - HHH000412: Hibernate Core {4.2.7.Final} 
+2018-06-18 16:54:48 [main] [INFO] org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+2018-06-18 16:54:48 [main] [INFO] org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+2018-06-18 16:54:49 [main] [INFO] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2018-06-18 16:54:49 [main] [INFO] o.h.e.j.internal.LobCreatorBuilder - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2018-06-18 16:54:50 [main] [INFO] o.h.e.t.i.TransactionFactoryInitiator - HHH000399: Using default transaction strategy (direct JDBC transactions) 
+2018-06-18 16:54:50 [main] [INFO] o.h.h.i.a.ASTQueryTranslatorFactory - HHH000397: Using ASTQueryTranslatorFactory 
+2018-06-18 16:54:50 [main] [INFO] o.h.cache.spi.UpdateTimestampsCache - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache 
+2018-06-18 16:54:50 [main] [INFO] o.h.c.internal.StandardQueryCache - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache 
+2018-06-18 16:54:50 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Contact]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.roles]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Roles.personnel]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.contact]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Personnel.project]; using defaults. 
+2018-06-18 16:54:51 [main] [WARN] o.h.c.e.AbstractEhcacheRegionFactory - HHH020003: Could not find a specific ehcache configuration for cache named [com.exist.ecc.model.Project.personnel]; using defaults. 
+2018-06-18 16:54:51 [main] [INFO] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4918 ms 
+2018-06-18 16:54:52 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization started 
+2018-06-18 16:54:52 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:54:52 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:54:52 [main] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Registering annotated classes: [class MvcConfig] 
+2018-06-18 16:54:52 [main] [INFO] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2018-06-18 16:54:53 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.exist.ecc.controllers.IndexController.home(org.springframework.web.servlet.ModelAndView) 
+2018-06-18 16:54:54 [main] [INFO] o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/resources/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+2018-06-18 16:54:54 [main] [INFO] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:54:52 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:54:54 [main] [INFO] o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcher': initialization completed in 2885 ms 
+2018-06-18 16:55:34 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Jun 18 16:54:52 PHT 2018]; parent: Root WebApplicationContext 
+2018-06-18 16:55:34 [Thread-2] [INFO] o.s.w.c.s.AnnotationConfigWebApplicationContext - Closing Root WebApplicationContext: startup date [Mon Jun 18 16:54:47 PHT 2018]; root of context hierarchy 

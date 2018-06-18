@@ -1,3 +1,5 @@
+package com.exist.ecc.model;
+
 import java.time.*;
 import java.util.Set;
 import java.util.*;

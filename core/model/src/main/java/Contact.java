@@ -1,3 +1,5 @@
+package com.exist.ecc.model;
+
 import javax.persistence.*;
 import java.util.Objects;
 import org.hibernate.annotations.Cache;

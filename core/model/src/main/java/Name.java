@@ -1,3 +1,5 @@
+package com.exist.ecc.model;
+
 import javax.persistence.*;
 
 @Embeddable
